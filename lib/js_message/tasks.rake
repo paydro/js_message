@@ -14,7 +14,7 @@ namespace :js_message do
 
   <%= javascript_include_tag "jquery.js_message.js" %>
 
-  And you're all set!
+  Done! Make sure to restart your server before.
     ]
   end
 end
