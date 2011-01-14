@@ -1,7 +1,7 @@
 namespace :js_message do
   desc "Install the jquery.js_message.js into your public/javascripts dir"
   task :install do
-    gemdir = File.join(File.dirname(__FILE__), "..", "..",)
+    gemdir = File.join(File.dirname(__FILE__), "..", "..")
     print "\n  Copying 'jquery.js_message.js' to rails' public/javascripts dir ... "
     FileUtils.cp(
       File.join(gemdir, "js", "jquery.js_message.js"),
