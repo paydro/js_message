@@ -1,5 +1,5 @@
-jsMessage
-=========
+js_message
+==========
 
 jsMessage standardizes javascript interaction between the front end (html) and a rails application.
 
