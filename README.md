@@ -1,7 +1,7 @@
 js_message
 ==========
 
-jsMessage standardizes javascript interaction between the front end (html) and a rails application.
+js_message standardizes javascript interaction between the front end (html) and a rails application.
 
 See this blog post: http://paydrotalks.com/posts/45-standard-json-response-for-rails-and-jquery
 
