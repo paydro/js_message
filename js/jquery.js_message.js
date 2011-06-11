@@ -1,7 +1,7 @@
 (function($){
     // Checks that a console arg is available before logging to it
     $.log = function(msg){
-        if(window.console && DEBUG){
+        if(window.console && window.DEBUG){
             console.log(msg);
         }
     };
