@@ -18,6 +18,11 @@ Then run the following rake task and follow the instructions:
 
 You're all set!
 
+License
+=======
+
+MIT: https://github.com/paydro/js_message/blob/master/LICENSE
+
 Author
 ======
 
