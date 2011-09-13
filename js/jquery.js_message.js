@@ -6,6 +6,17 @@
         }
     };
 
+    /* set up a converter and accepts dataType to allow rails to
+       "respond_to" jsm based on the accepts header  */
+    $.ajaxSetup({
+        accepts: {
+          jsm: "text/jsm, application/jsm"
+        },
+        converters: {
+          "text jsm": jQuery.parseJSON
+        }
+    });
+
     // Appends the ".jsm" to a URL. It will not append the extension
     // if the URL already has it.
     $.appendJSMExt = function(url){
