@@ -8,7 +8,8 @@ module JsMessage
         include JsMessage::ControllerMethods
       end
 
-      Mime::Type.register_alias "application/json", :jsm
+      Mime::Type.register "application/jsm", :jsm
+
     end
 
     rake_tasks do
